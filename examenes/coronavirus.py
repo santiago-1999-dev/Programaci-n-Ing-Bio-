@@ -26,7 +26,7 @@ else:
     if ((_temperaturaPaciente >= 36) and (_temperaturaPaciente <= 38.4)):
         _temperaturaPaciente = float (input (PREGUNTA_TEMPERATURA))
         print (MENSAJE_SALUDABLE)
-    elif ((_temperaturaPaciente >= 36) and (_temperaturaPaciente <= 38.5)):
+    elif (_temperaturaPaciente < 36): 
             print (MENSAJE_HIPOTERMIA)
     elif ((_temperaturaPaciente >= 38.5) and (_temperaturaPaciente <= 40)):
             print (MENSAJE_ALERTA)
