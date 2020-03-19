@@ -1,7 +1,7 @@
 
 #Mensajes 
 MENSAJE__BIENVENIDO="Bienvenido"
-MENSAJE_ENTRADA="a este programa"
+MENSAJE_ENTRADA ="a este programa"
 MENSAJE_EDAD="Tu edad es"
 MENSAJE_ESTATURA="Tu estatura es"
 #Preguntas
