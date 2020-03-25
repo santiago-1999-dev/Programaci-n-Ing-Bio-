@@ -66,7 +66,7 @@ while (_decision != 4):
         3- para ver notas
         4- salir
     """))
-print("gracias por usar el programa")
+
 
 
 
