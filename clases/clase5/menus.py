@@ -58,7 +58,8 @@ while (_decision != 4):
     elif (_decision == 3):
         print(listaNotas)
     else:
-        print("ingrese un valor valido")
+        
+        
     _decision = int (input("""
      ingrese :
         1- para ver lista de nombre
