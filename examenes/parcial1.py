@@ -48,6 +48,9 @@ estudiante_genero = ["Masculino", "Femenino", "maculino","femanino","masculinno"
 
 profe_nombre = ["Armando", "Roberto"]
 profe_edad = [30,40]
+
+director_nombre = ["David"]
+director_edad = [50]
 #---------------------------------------------------#
 Mensaje_pregunta = """
     1. Mostrar atributos de los estudiantes 
@@ -73,6 +76,16 @@ def mostar_dos_listas (lista1,lista2):
             print(lista1[i],lista2[i])
     else:
         print ("las listas no se pueden mostrar juntas")
+
+def mostrar_dos_direc_listas (lista1, lista2):
+    size_lista1 = len(lista1)
+    size_lista2 = len(lista2)
+    if (size_lista1==size_lista2):
+        for i in range(size_lista1):
+            print(lista1[i],lista2[i])
+    else:
+        print ("las listas no se pueden mostrar juntas")
+
     
 
 _eleccion_estudiante = 0
@@ -82,6 +95,13 @@ while (_eleccion_estudiante!=4):
         mostrar_tres_listas (estudiantes_nombres, estudiantes_edades, estudiante_genero)
     elif (_eleccion_estudiante==2):
         mostar_dos_listas (profe_nombre,profe_edad)
+    elif (_eleccion_estudiante==3):
+        mostrar_dos_direc_listas (director_nombre, director_edad)
+    elif(_eleccion_estudiante == 4):
+        print("Gracias por usar el programa")
+    else:
+        print("ingrese un número válido")
+
    
 
     
