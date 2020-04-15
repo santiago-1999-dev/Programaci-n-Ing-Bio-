@@ -64,7 +64,7 @@ def mostrar_tres_listas (lista1,lista2,lista3):
     size_lista2 = len(lista2)
     size_lista3 = len(lista3)
     if (size_lista1==size_lista2==size_lista3):
-        for i in range(size_lista1,size_lista2):
+        for i in range(size_lista1):
             print(lista1[i],lista2[i],lista3[i])
     else:
         print ("las listas no se pueden mostrar juntas")
