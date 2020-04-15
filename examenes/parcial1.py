@@ -77,9 +77,11 @@ def mostar_dos_listas (lista1,lista2):
 
 _eleccion_estudiante = 0
 while (_eleccion_estudiante!=4):
+    _eleccion_estudiante = int(input(Mensaje_pregunta))
     if (_eleccion_estudiante==1):
         mostrar_tres_listas (estudiantes_nombres, estudiantes_edades, estudiante_genero)
-    else(_eleccion_estudiante)
+    elif (_eleccion_estudiante==2):
+        mostar_dos_listas (profe_nombre,profe_edad)
    
 
     
