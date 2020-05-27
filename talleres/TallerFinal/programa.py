@@ -1,10 +1,7 @@
 import sys
 #--------------------------------------------------------------#
 MENSAJE__BIENVENIDA ="Bienvenido al programa"
-MESAJE_PESO_BAJO = "Estas bajo de peso"
-MENSAJE_PESO_SALUDABLE = "Estas saludable"
-MESAJE_SOBREPESO = "Estas en sobrepeso"
-MESAJE_OBESIDAD = "Estas en obesidad"
+
 #------------------------------------------------------------------#
 import matplotlib.pyplot as plt
 import pandas as p
