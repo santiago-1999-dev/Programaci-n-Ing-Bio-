@@ -1,7 +1,10 @@
 import sys
 #--------------------------------------------------------------#
 MENSAJE__BIENVENIDA ="Bienvenido al programa"
-
+MESAJE_PESO_BAJO = "estas bajo de peso"
+MENSAJE_PESO_SALUDABLE = "estas saludable"
+MESAJE_SOBREPESO = "estas en sobrepeso"
+MESAJE_OBESIDAD = "estas en obesidad"
 #------------------------------------------------------------------#
 import matplotlib.pyplot as plt
 import pandas as p
@@ -32,7 +35,7 @@ plt.plot(x,y)
 plt.savefig(input("ingrese el nombre de como quiere guardar el grafico : "))
 plt.show()
 
-#-----------------------------------------------------------------#
+#-------------------------------------------------------------------------#
 print ("#"*60)
 
 nombre = "\nNo ingresaste el nombre"
